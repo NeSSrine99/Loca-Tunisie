@@ -1,9 +1,13 @@
 import Image from "next/image";
+import LogementCard from "./components/LogementCard";
+import LogementList from "./components/LogementList";
+import Banner from "./components/Banner";
 
 export default function Home() {
   return (
     <main> 
-      <h1 className="text-primary"> nesrin nesri </h1>
+      <Banner />
+     
     </main>
   );
 }
