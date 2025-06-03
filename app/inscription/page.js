@@ -1,6 +1,5 @@
-import React from 'react'
-import InscriptionForm from '../components/InscriptionForm';
-
+import React from "react";
+import InscriptionForm from "../components/InscriptionForm";
 
 export const metadata = {
   title: "Formulaire d'inscription | Loca Tunisie",
@@ -11,23 +10,16 @@ export const metadata = {
     type: "website",
     title: "Formulaire d'inscription | Loca Tunisie",
     description:
-      "Page de formulaire d'inscription pour créer un compte sur notre site.",
-    images: [
-      {
-        url: "/og-image.jpg",
-        width: 800,
-        height: 600,
-      },
-    ],
+      "Page de formulaire d'inscription pour créer un compte sur Loca-Tunisie.",
   },
 };
 
 const page = () => {
   return (
     <main>
-        <InscriptionForm />
+      <InscriptionForm />
     </main>
-  )
-}
+  );
+};
 
-export default page
+export default page;
