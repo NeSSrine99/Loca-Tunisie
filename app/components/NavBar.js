@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 import { RiMenuUnfold4Line, RiCloseLine } from "react-icons/ri";
-import { MdOutlineAddHomeWork } from "react-icons/md";
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,11 +12,11 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="flex items-center justify-between py-2 px-4 relative shadow-xl">
+    <nav className="flex items-center justify-between  px-4 relative shadow-xl">
       <Link href="/">
         <div className="flex items-center gap-2 text-primary font-itim text-2xl">
-          <Image src="/images/logo2.png" alt='logo' width={100} height={100} />
-        
+          <Image src="/images/logo2.png" alt="logo" width={100} height={100} />
+
           <span>LocaTunisie</span>
         </div>
       </Link>
