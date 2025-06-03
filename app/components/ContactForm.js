@@ -53,7 +53,9 @@ const ContactForm = () => {
             className="w-full border rounded px-3 py-2"
           />
           {errors.name && (
-            <div className="text-red-500 text-sm mt-1">{errors.name.message}</div>
+            <div className="text-red-500 text-sm mt-1">
+              {errors.name.message}
+            </div>
           )}
         </div>
 
@@ -68,28 +70,32 @@ const ContactForm = () => {
             className="w-full border rounded px-3 py-2"
           />
           {errors.email && (
-            <div className="text-red-500 text-sm mt-1">{errors.email.message}</div>
+            <div className="text-red-500 text-sm mt-1">
+              {errors.email.message}
+            </div>
           )}
         </div>
 
-        
-
         {/* Message */}
         <div className="mb-4">
-          <label className="block mb-1 font-semibold text-secondary">Message</label>
+          <label className="block mb-1 font-semibold text-secondary">
+            Message
+          </label>
           <textarea
             {...register("message")}
             className="w-full border rounded px-3 py-2"
             maxLength={30}
           />
           {errors.message && (
-            <div className="text-red-500 text-sm mt-1">{errors.message.message}</div>
+            <div className="text-red-500 text-sm mt-1">
+              {errors.message.message}
+            </div>
           )}
         </div>
 
         <button
           type="submit"
-          className="w-full bg-primary text-white py-2 px-4 rounded-xl hover:bg-indigo-700 transition"
+          className="w-full bg-primary text-white py-2 px-4 rounded-xl hover:bg-secondary transition"
         >
           Envoyer
         </button>
