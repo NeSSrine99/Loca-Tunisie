@@ -19,7 +19,7 @@ export const metadata = {
 const LogementList = () => {
   return (
     
-      <main className="grid lg:grid-col-3 md:grid-cols-2 grid-cols-1 items-center justify-center flex-wrapmd:gap-6 gap-4 lg:px-[120px] sm:px-[60px] px-4  py-[100px]">
+      <main className="grid md:grid-cols-3 lg:gap-7 sm:grid-cols-2 grid-cols-1 lg:px-[120px] px-4 py-[150px] ">
       {logements.map((longement) => (
         <LogementCard key={longement.id} {...longement} />
       ))}

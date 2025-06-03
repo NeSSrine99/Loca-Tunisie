@@ -2,7 +2,7 @@ const logements = [
   {
     id: 1,
     nom: 'Appartement S+2 à La Marsa',
-    image: '/images/logement1.jfif',
+    image: '/images/logement2.jfif',
     description: 'Spacieux appartement à louer à La Marsa avec vue sur mer.',
     prix: 1200,
     categorie: 'Appartement',
@@ -34,7 +34,7 @@ const logements = [
   {
     id: 5,
     nom: 'Maison traditionnelle à Sidi Bou Saïd',
-    image: '/images/logement5.jpg',
+    image: '/images/logement2.jfif',
     description: 'Charmante maison à l’architecture typique avec terrasse.',
     prix: 2000,
     categorie: 'Maison',
@@ -58,7 +58,7 @@ const logements = [
   {
     id: 8,
     nom: 'Villa moderne à Carthage',
-    image: '/images/logement1.jfif',
+    image: '/images/logement2.jfif',
     description: 'Villa design avec grand salon et jardin arboré.',
     prix: 4000,
     categorie: 'Villa',
